@@ -117,7 +117,7 @@ describe('CryptographyService', () => {
     );
 
     expect(argon2Hash.toString()).toMatch(
-      /\$argon2id\$v=19\$m=65536,t=3,p=4\$[a-zA-Z\d$\/+\\]*/,
+      /\$argon2id\$v=19\$m=65536,p=4,t=3\$[a-zA-Z\d$\/+\\]*/,
     );
   });
 
