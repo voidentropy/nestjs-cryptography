@@ -7,10 +7,10 @@ const config: Config = {
   tagline: 'Secure NestJS cryptography module 🔐',
   favicon: 'img/nestjs_favicon.ico',
 
-  url: 'https://nestjs-cryptography.cypher-fox.com',
+  url: 'https://nestjs-cryptography.voidentropy.com',
   baseUrl: '/',
 
-  organizationName: 'cipher-fox',
+  organizationName: 'voidentropy',
   projectName: 'nestjs-cryptography',
 
   onBrokenLinks: 'warn',
@@ -27,7 +27,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/cipher-fox/nestjs-cryptography',
+          editUrl: 'https://github.com/voidentropy/nestjs-cryptography',
           lastVersion: 'current',
           versions: {
             current: {
@@ -72,7 +72,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/cipher-fox/nestjs-cryptography',
+          href: 'https://github.com/voidentropy/nestjs-cryptography',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,11 +95,11 @@ const config: Config = {
           items: [
             {
               label: 'Issues',
-              href: 'https://github.com/cipher-fox/nestjs-cryptography/issues',
+              href: 'https://github.com/voidentropy/nestjs-cryptography/issues',
             },
             {
               label: 'Contribute',
-              href: 'https://github.com/cipher-fox/nestjs-cryptography/issues',
+              href: 'https://github.com/voidentropy/nestjs-cryptography/issues',
             },
           ],
         },
@@ -117,7 +117,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/cipher-fox',
+              href: 'https://github.com/voidentropy',
             },
           ],
         },

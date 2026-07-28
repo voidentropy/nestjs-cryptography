@@ -3,17 +3,17 @@
   "version": "3.2.7",
   "author": {
     "name": "Marc Jorge Gonzalez",
-    "url": "https://github.com/cipher-fox"
+    "url": "https://github.com/voidentropy"
   },
   "license": "MIT",
   "description": "Secure NestJS cryptography module 🔐",
-  "homepage": "https://nestjs-cryptography.cypher-fox.com",
+  "homepage": "https://nestjs-cryptography.voidentropy.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cipher-fox/nestjs-cryptography.git"
+    "url": "git+https://github.com/voidentropy/nestjs-cryptography.git"
   },
   "bugs": {
-    "url": "https://github.com/cipher-fox/nestjs-cryptography/issues"
+    "url": "https://github.com/voidentropy/nestjs-cryptography/issues"
   },
   "scripts": {
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
