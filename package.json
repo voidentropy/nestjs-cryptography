@@ -1,6 +1,6 @@
 {
   "name": "nestjs-cryptography",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "author": {
     "name": "Marc Jorge Gonzalez",
     "url": "https://github.com/voidentropy"
@@ -27,37 +27,37 @@
     "all": "yarn format && yarn lint && yarn test && yarn prepack"
   },
   "dependencies": {
-    "argon2": "^0.44.0"
+    "argon2": "^0.45.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/eslintrc": "^3.3.6",
     "@eslint/js": "^10.0.1",
-    "@nestjs/cli": "^11.0.23",
-    "@nestjs/common": "^11.1.27",
-    "@nestjs/core": "^11.1.27",
-    "@nestjs/platform-express": "^11.1.27",
+    "@nestjs/cli": "^11.0.24",
+    "@nestjs/common": "^11.1.28",
+    "@nestjs/core": "^11.1.28",
+    "@nestjs/platform-express": "^11.1.28",
     "@nestjs/schematics": "^11.1.0",
-    "@nestjs/testing": "^11.1.27",
+    "@nestjs/testing": "^11.1.28",
     "@types/express": "^5.0.6",
     "@types/jest": "30.0.0",
-    "@types/node": "26.0.0",
-    "@types/supertest": "^7.2.0",
-    "eslint": "^10.5.0",
+    "@types/node": "26.1.2",
+    "@types/supertest": "^7.2.1",
+    "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",
     "jest": "30.4.2",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.6",
     "reflect-metadata": "^0.2.2",
     "rimraf": "^6.1.3",
     "rxjs": "^7.8.2",
     "source-map-support": "^0.5.21",
     "supertest": "^7.2.2",
-    "ts-jest": "^29.4.11",
+    "ts-jest": "^29.4.12",
     "ts-loader": "^9.6.2",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "4.2.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.62.0"
+    "typescript-eslint": "^8.65.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0",
