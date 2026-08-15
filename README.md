@@ -1,7 +1,7 @@
 [![codecov](https://codecov.io/github/voidentropy/nestjs-cryptography/branch/main/graph/badge.svg?token=I0ZFVZTREB)](https://codecov.io/github/voidentropy/nestjs-cryptography)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/42923e1b0a6a40269d8deb79e6957394)](https://app.codacy.com/gh/voidentropy/nestjs-cryptography/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CodeQL](https://github.com/voidentropy/nestjs-cryptography/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/voidentropy/nestjs-cryptography/actions/workflows/github-code-scanning/codeql)
-[![Publish Wiki](https://github.com/voidentropy/nestjs-cryptography/actions/workflows/deploy-wiki-prod.yaml/badge.svg?branch=main)](https://nestjs-cryptography.voidentropy.com)
+[![Publish Wiki](https://github.com/voidentropy/nestjs-cryptography/actions/workflows/deploy-wiki-prod.yaml/badge.svg?branch=main)](https://nestjs-cryptography.voidentropy.com) [![AI CODE NOT HERE](https://aicodenothere.com/badge.json?size=20)](https://aicodenothere.com/)
 
 # NestJS - Cryptography
 
