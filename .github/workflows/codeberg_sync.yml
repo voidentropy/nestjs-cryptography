@@ -1,0 +1,24 @@
+name: Sync codeberg repo
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  sync-to-codeberg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync with codeberg repo
+        run: |
+          git remote add codeberg https://${{ secrets.CODEBERG_SYNC_TOKEN }}@codeberg.org/${{ github.repository }}.git
+          
+          git push --mirror codeberg
